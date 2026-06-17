@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sentence Scramble | 乱序拼句</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Sentence Scramble</h1>
+    <h2>乱序拼句</h2>
+    <p>A classroom word-order game for Chinese language learners.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Generate a Scramble</h2>
+      <h3>生成乱序句子</h3>
+      <p class="description">
+        Click the button to generate scrambled words for students to arrange into a sentence.
+      </p>
+      <p class="description-translation">
+        点击按钮生成乱序的单词，学生们可以将它们排列成一个句子。
+      </p>
+
+      <button id="generateBtn">Generate Words</button>
+      <button id="revealBtn" type="button">Reveal</button>
+
+      <div id="wordBox" class="word-box">
+        Words will appear here.
+      </div>
+      <div id="revealBox" class="word-box" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created for Chinese class activities</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
