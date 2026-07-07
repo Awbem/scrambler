@@ -11,10 +11,27 @@ body {
 }
 
 .site-header {
+  position: relative;
   background: #2f3e46;
   color: white;
   text-align: center;
   padding: 3rem 1rem;
+}
+
+.cornerlogo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.cornerlogo a,
+.cornerlogo img {
+  display: block;
+}
+
+.cornerlogo img {
+  width: clamp(56px, 12vw, 100px);
+  height: auto;
 }
 
 .site-header h1 {
